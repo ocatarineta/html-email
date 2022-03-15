@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Email Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            background-color: darkkhaki;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2%;
+            color: #565859;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+            background: #FFF;
+        }
+
+        h2 {
+            letter-spacing: 1%;
+            padding-left: 2%;
+            font-weight: 500;
+        }
+
+        p{
+            padding:2%;
+            text-align: justify;
+        }
+        img{
+            max-width:100%;
+        }
+
+        .line{
+            clear:both;
+            margin:4% auto;
+            width:90%;
+            height:2px;
+            background-color: #e3e9e9;
+        }
+        header{
+            width:98%;
+        }
+        #logo{
+            float:left;
+            margin: 2% 0 0 5%;
+            max-width: 220px;
+        }
+        #callout{
+            float:right;
+            margin:4% 4% 4% 0;
+            height:auto;
+            overflow:hidden;
+        }
+
+        .social {
+            float:right;
+            list-style-type: none;
+            margin-top: 4% ;
+            padding:0;
+        }
+
+        .social li {
+            display:inline;
+        }
+        .banner{
+            margin-bottom:3%;
+        }
+        .btn{
+            float: right;
+            border-radius:8px;
+            color:#fff;
+            font-size:17px;
+            background: #18a0d3;
+            padding:8px;
+            text-decoration: none;
+        }
+        .button-holder{
+            float:right;
+            margin:0 2% 4% 0;
+        }
+
+        .btn:hover{
+            background: #4ec0eb;
+            text-decoration: none;
+        }
+        .contact{
+            text-align:center;
+            margin-bottom: 4%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <h1>CYL</h1>
+                <h5>Front-end Developer</h5>
+                <!-- <img src="./assets/email.jpg" alt=""> -->
+            </div>
+            <div id="callout">
+                <ul class="social">
+                    <li><a href="your link here"> <i class="fa fa-github-square fa-2x"></i></a></li>
+                    <li><a href="your link here"> <i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                    <li><a href="your link here"> <i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li><a href="your link here"> <i class="fa fa-tweeter-square fa-2x"></i></a></li>
+
+                </ul>
+            </div>
+        </header>
+        <div class="banner"><img src="./assets/screen.jpg" alt=""></div>
+        <h2>Create HTML email teblates </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi perferendis voluptas blanditiis nulla
+            sapiente nihil repellat voluptatibus repudiandae est architecto.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit mollitia dignissimos ratione fugiat
+            reprehenderit vero atque, dolorem doloremque a maxime incidunt, quam odio suscipit accusamus pariatur eius.
+            Fuga inventore earum voluptatem accusantium, dignissimos vel repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In asperiores eos explicabo? Illo cum voluptatibus
+            ducimus ex accusantium non repellendus tempora molestiae harum suscipit ipsum sequi, numquam quos voluptates
+            distinctio odit incidunt sunt eaque a magnam perferendis quis. Voluptatibus, error!</p>
+        <div class="button-holder">
+            <a class="btn" href="http://">Learn more</a>
+        </div>
+        <div class="line"></div>
+        <p class="contact">CYL <br>
+            +30123456789<br>
+            contact@gmail.com
+        </p>
+    </div>
+
+</body>
+
+</html>
